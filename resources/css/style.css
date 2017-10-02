@@ -42,24 +42,18 @@ body {
   height: 700px;
   width: 1200px;
   background-image: url("../images/img-mission-background.jpg");
+  margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
-}
-
-#mission {  
+  flex-flow: column wrap;
   justify-content: center;
-  align-content: center;
-  margin-top: 70px;
-  color: seashell;
+  align-items: center;
   flex-shrink: 2;
 }
 
-.missiontitle {
-}
-
-.missiontitle, .missiondetail {
-  text-align: center;
+.mission {
   color: seashell;
+  text-align: center;
   background-color: black;
   margin-top: 0px;
   margin-bottom: 0px;

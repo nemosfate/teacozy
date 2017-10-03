@@ -21,7 +21,6 @@ header {
 
 .navs {
   padding: 20px 10px;
-  font-size: 22px;
 }
 
 nav {
@@ -36,7 +35,8 @@ nav {
 
 /*Main Content*/
 
-main {
+body {
+  font-size: 22px;
   font-family: Helvetica, sans-serif;
   background-color: black;
 }
@@ -67,7 +67,7 @@ main {
 /*Main Content*/
 /*Featured Tea*/
 
-img {
+.list img {
   height: 200px;
   width: 300px;
 }
@@ -93,12 +93,61 @@ img {
 
 .featured {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 /*Main Content*/
 /*Locations*/
 
+.address {
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-shrink: 2;
+}
 
+.address ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
 
+.address li {
+  display: flex;
+  list-style: none;
+  color: inherit;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
+  flex-shrink: 2;
+  list-style: none;
+  opacity: 1;
+}
+
+.address li {
+  height: 300px;
+  width: 300px;
+  margin: 10px 10px;
+}
 /*Footer*/
+
+.contact {
+  display: flex;
+  text-align: center;
+  height: 200px;
+  flex-flow: column nowrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+#copyright {
+  text-align: left;
+  margin-left: 20px;
+}
